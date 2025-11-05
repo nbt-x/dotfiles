@@ -1,0 +1,12 @@
+#shortcuts
+alias lz='lazygit'    # lazygit
+alias cd='z'    # train zoxide even when muscle memory kicks in
+alias o='kde-open'    # open
+
+# defaults
+alias grep='grep --color=auto'
+alias kate='kate .'    # open the current working directory instead of not opening anything
+
+#ls
+alias ls='ls --color'
+alias ll='ls -la'

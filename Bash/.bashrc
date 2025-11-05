@@ -10,8 +10,15 @@ alias ll='ls -la'
 alias lz='lazygit'
 alias cd='z'
 alias o='kde-open'
-alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
+
+if [ -f ~/.bash-aliases ]; then
+    . ~/.bash-aliases
+fi
+
+if [ -f ~/.bash-secret-aliases ]; then
+    . ~/.bash-secret-aliases
+fi
 
 export PATH=/home/nbkt/.local/bin:$PATH
 
