@@ -13,11 +13,11 @@ alias o='kde-open'
 PS1='[\u@\h \W]\$ '
 
 if [ -f ~/.bash-aliases ]; then
-    . ~/.bash-aliases
+    . ~/.aliases
 fi
 
 if [ -f ~/.bash-secret-aliases ]; then
-    . ~/.bash-secret-aliases
+    . ~/.secret-aliases
 fi
 
 export PATH=/home/nbkt/.local/bin:$PATH
