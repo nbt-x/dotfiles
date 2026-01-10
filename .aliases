@@ -1,0 +1,14 @@
+#shortcuts
+alias lz='lazygit'    # lazygit
+alias cd='z'    # zoxide
+alias o='xdg-open'    # open
+
+# defaults
+alias grep='grep --color=auto'
+alias kate='kate .'    # open the current working directory instead of not opening anything
+
+#ls
+alias ls='ls --color'
+alias ll='ls -la'
+
+alias wormhole='AUTOBAHN_USE_NVX=0 wormhole'
