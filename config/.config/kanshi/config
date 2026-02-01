@@ -21,8 +21,20 @@ output "Samsung Electric Company S24E650 H4ZJC03052" {
     alias $VERTICAL
 }
 
+output "Chimei Innolux Corporation 0x14E4" {
+    mode 1920x1080
+    position 0,0
+    scale 0.95
+    alias $KARLHEINZ
+}
+
 profile desk {
     output $MAIN enable
     output $LEFT enable
-    output $VERTICAL
+    output $VERTICAL enable
+    output $KARLHEINZ disable
+}
+
+profile karlheinz {
+    output $KARLHEINZ enable
 }
