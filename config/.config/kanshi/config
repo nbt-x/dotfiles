@@ -5,7 +5,7 @@ output "AOC 24G2W1G4 ATNLB1A010159" {
     alias $MAIN
 }
 
-output "Samsung Electric Company S24E650 0x5A5A474D" {
+output "Samsung Electric Company S24E650 H4ZJB00979" {
     mode 1920x1080@60.00
     position -1920,0
     scale 1
@@ -13,7 +13,7 @@ output "Samsung Electric Company S24E650 0x5A5A474D" {
     alias $LEFT
 }
 
-output "Samsung Electric Company S24E650 H4ZJC03052" {
+output "Samsung Electric Company S24E650 0x5A5A474D" {
     mode 1920x1080@60.00
     position 1920,-450
     scale 1
@@ -32,7 +32,12 @@ profile desk {
     output $MAIN enable
     output $LEFT enable
     output $VERTICAL enable
-    output $KARLHEINZ disable
+    output $KARLHEINZ enable
+}
+
+profile desktop {
+    output $MAIN enable
+    output $LEFT enable
 }
 
 profile karlheinz {
