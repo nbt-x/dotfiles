@@ -11,4 +11,4 @@ alias kate='kate .'    # open the current working directory instead of not openi
 alias ls='ls --color'
 alias ll='ls -la'
 
-alias wh='AUTOBAHN_USE_NVX=0 wormhole'
+alias wh='wormhole'
