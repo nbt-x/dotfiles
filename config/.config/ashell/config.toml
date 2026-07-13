@@ -1,13 +1,14 @@
 [modules]
 left = [ "Settings" ]
 center = [ "Workspaces" ]
-right = [ "WindowTitle", [ "Clock" ]]
+right = [ "WindowTitle" ]
 
 [window_title]
 truncate_title_after_length = 60
 
 [workspaces]
 workspace_names = ["Y","U","I","O","P","1","2","3","4","5",]
+visibility_mode = "MonitorSpecific"
 
 [appearance]
 font_name = "Jet Brains Mono"
